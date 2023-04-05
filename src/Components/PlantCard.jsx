@@ -6,6 +6,11 @@ function PlantCard({ plant, id }) {
   const { type, date, url, name } = plant;
 
   const { plants, setPlants } = useContext(PlantContext);
+
+  function removePlant(id) {
+    setPlants(plants.filter((plant, i) => i !== id));
+  }
+
   return (
     <article className="plantCard">
       <figure style={{ backgroundImage: `url(${url})` }}></figure>
@@ -17,9 +22,7 @@ function PlantCard({ plant, id }) {
         <p>{name}</p>
         <button
           className="removeBtn"
-          onClick={() => {
-            setPlants(plants.filter((a) => a.date !== plant.date));
-          }}
+          onClick={() => removePlant(id)}
           //Hade behövt ett id till varje object. Men hur gör man för att ge en ny planta ett unikt id?
         >
           Ta bort

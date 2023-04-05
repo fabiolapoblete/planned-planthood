@@ -12,7 +12,7 @@ function DisplayPLants() {
       <h2>Våra planerade planteringar:</h2>
       <section className="plantsContainer">
         {plants.map((plant, i) => (
-          <PlantCard key={i} plant={plant} />
+          <PlantCard key={i} id={i} plant={plant} />
         ))}
       </section>
       <Link to="/PlantCollection">
