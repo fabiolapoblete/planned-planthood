@@ -24,28 +24,28 @@ function App() {
       name: "Rico Coolio",
     },
     {
-      type: "Tomat",
+      type: "Morot",
       date: "2023-04-01",
-      url: "https://images.unsplash.com/photo-1591857177593-aec16c2d8f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      url: "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fycm90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
       name: "Majvor",
     },
     {
-      type: "Gurka",
+      type: "Salladslök",
       date: "2023-04-05",
-      url: "https://images.unsplash.com/photo-1628444756705-9244dc6d4dcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-      name: "Rico Coolio",
+      url: "https://images.unsplash.com/photo-1602769515559-e15133a7e992?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGVla3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      name: "Paulo Coolio",
     },
     {
-      type: "Tomat",
+      type: "Grönkål",
       date: "2023-04-01",
-      url: "https://images.unsplash.com/photo-1591857177593-aec16c2d8f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      url: "https://images.unsplash.com/photo-1600316699030-6905f891941a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2FsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
       name: "Emma",
     },
     {
-      type: "Gurka",
+      type: "Rödbeta",
       date: "2023-04-05",
-      url: "https://images.unsplash.com/photo-1628444756705-9244dc6d4dcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-      name: "Rico Coolio",
+      url: "https://images.unsplash.com/photo-1593105544559-ecb03bf76f82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmVldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      name: "Alberto",
     },
   ];
 

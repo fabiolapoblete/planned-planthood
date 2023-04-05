@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import "../styling/plantCard.css";
 import { PlantContext } from "../App";
+import Button from "./Button";
 
 function PlantCard({ plant, id }) {
   const { type, date, url, name } = plant;
@@ -20,13 +21,7 @@ function PlantCard({ plant, id }) {
       </section>
       <section>
         <p>{name}</p>
-        <button
-          className="removeBtn"
-          onClick={() => removePlant(id)}
-          //Hade behövt ett id till varje object. Men hur gör man för att ge en ny planta ett unikt id?
-        >
-          Ta bort
-        </button>
+        <Button title="Ta bort" action={() => removePlant(id)} />
       </section>
     </article>
   );
