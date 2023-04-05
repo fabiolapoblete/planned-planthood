@@ -1,0 +1,26 @@
+figure {
+    width: 300px;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.plantCard {
+    width: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.plantCard section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.removeBtn {
+    background-color: #B93857;
+    padding: 5px 16px;
+    border-radius: 9px;
+}

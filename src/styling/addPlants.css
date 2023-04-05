@@ -1,0 +1,29 @@
+.addPlants {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.addPlants h2 {
+    align-self: center;
+}
+.inputSection {
+    display: flex;
+    gap: 108px;
+}
+
+.inputSection__rows {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form button {
+    align-self: flex-start;
+}

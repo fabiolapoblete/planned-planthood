@@ -1,0 +1,21 @@
+.inputItems {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+input {
+    width: 216px;
+    padding: 9px 11px;
+    border-radius: 5px;
+    border: 1px solid #03382F;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,0 +1,22 @@
+.sowingTips {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.sowingTips__textbox {
+    max-width: 467px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.sowingTips button {
+    align-self: flex-end;
+}
